@@ -11,7 +11,7 @@ struct Question {
     char correctAnswer;
 };
 
-int getQuestionCount(void);
-struct Question getQuestion(int index);
+int getQuestionCount(void); //returns how many questions in quiz
+struct Question getQuestion(int index); //returns question at specific index in array
 
 #endif
