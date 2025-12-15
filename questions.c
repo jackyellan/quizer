@@ -20,7 +20,7 @@ static struct Question questionBank[MAX_QUESTIONS] = {
 
 // Return total number of questions
 int getQuestionCount(void) {
-    return 2;  // update as you add more
+    return 2;  // update return count as adding more
 }
 
 // Return a question by index
